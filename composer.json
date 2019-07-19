@@ -1,0 +1,42 @@
+{
+    "name": "maycow/hood-core",
+    "description": "The standalone core of Hood Framework.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Maycow Antunes",
+            "email": "maycowantunes@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "vlucas/phpdotenv": "*",
+        "symfony/yaml": "*",
+        "Philipp15b/php-i18n": "*",
+        "crysalead/router": "*",
+        "crysalead/net": "*",
+        "crysalead/inflector": "*",
+        "crysalead/box": "*",
+        "usmanhalalit/pixie": "*",
+        "usmanhalalit/strana": "*",
+        "monolog/monolog": "*",
+        "robmorgan/phinx": "*",
+        "deployer/deployer": "*",
+        "maycow/validare": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "mockery/mockery": "*",
+        "filp/whoops": "*",
+        "kint-php/kint": "*",
+        "cebe/markdown": "~1.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hood\\": "src/Hood/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
