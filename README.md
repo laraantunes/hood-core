@@ -19,4 +19,4 @@ Config::setPaths([
 
 ```
 
-Now you can use all the Hood's features, as ORM, Query Builder and Routing library.
+Now you can use all the Hood's features, as ORM, Query Builder and Routing library. 
