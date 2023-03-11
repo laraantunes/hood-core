@@ -1,5 +1,5 @@
 {
-    "name": "maycow/hood-core",
+    "name": "laraantunes/hood-core",
     "description": "The standalone core of Hood Framework.",
     "type": "library",
     "license": "GPL-3.0-or-later",
@@ -23,7 +23,7 @@
         "monolog/monolog": "*",
         "robmorgan/phinx": "*",
         "deployer/deployer": "*",
-        "maycow/validare": "*"
+        "laraantunes/validare": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
