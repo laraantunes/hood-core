@@ -5,15 +5,15 @@
     "license": "GPL-3.0-or-later",
     "authors": [
         {
-            "name": "Maycow Antunes",
-            "email": "maycowantunes@gmail.com"
+            "name": "Lara Antunes",
+            "email": "eularaantunes@gmail.com"
         }
     ],
     "require": {
         "ext-pdo": "*",
         "vlucas/phpdotenv": "*",
         "symfony/yaml": "*",
-        "Philipp15b/php-i18n": "*",
+        "philipp15b/php-i18n": "*",
         "crysalead/router": "*",
         "crysalead/net": "*",
         "crysalead/inflector": "*",
