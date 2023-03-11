@@ -69,12 +69,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Cake\\Collection\\": "."
-                },
                 "files": [
                     "functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Cake\\Collection\\": "."
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -120,12 +120,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Cake\\Core\\": "."
-                },
                 "files": [
                     "functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Cake\\Core\\": "."
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -313,12 +313,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Cake\\Utility\\": "."
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Cake\\Utility\\": "."
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -364,12 +364,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Lead\\Box\\": "src/"
-                },
                 "files": [
                     "src/init.php"
-                ]
+                ],
+                "psr-4": {
+                    "Lead\\Box\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -509,12 +509,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/crysalead/net.git",
-                "reference": "4d75abead39e954529b56cbffa3841a9cd3044bb"
+                "reference": "02bd0d55a373c543248ca155a948662b325edfc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/crysalead/net/zipball/4d75abead39e954529b56cbffa3841a9cd3044bb",
-                "reference": "4d75abead39e954529b56cbffa3841a9cd3044bb",
+                "url": "https://api.github.com/repos/crysalead/net/zipball/02bd0d55a373c543248ca155a948662b325edfc3",
+                "reference": "02bd0d55a373c543248ca155a948662b325edfc3",
                 "shasum": ""
             },
             "require": {
@@ -530,7 +530,7 @@
             },
             "require-dev": {
                 "crysalead/dir": "^2.0",
-                "kahlan/kahlan": "~4.0"
+                "kahlan/kahlan": "~5.0"
             },
             "type": "library",
             "autoload": {
@@ -552,7 +552,7 @@
                 "http",
                 "psr-7"
             ],
-            "time": "2018-09-19T23:43:41+00:00"
+            "time": "2022-05-17T17:39:41+00:00"
         },
         {
             "name": "crysalead/router",
@@ -645,12 +645,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/crysalead/storage-stream.git",
-                "reference": "8ec613b42a2dd5d7e951a118f61d6094fe97dd9b"
+                "reference": "ef005acc358ab4b4d6d09d4cadb2f5f28373e6b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/crysalead/storage-stream/zipball/8ec613b42a2dd5d7e951a118f61d6094fe97dd9b",
-                "reference": "8ec613b42a2dd5d7e951a118f61d6094fe97dd9b",
+                "url": "https://api.github.com/repos/crysalead/storage-stream/zipball/ef005acc358ab4b4d6d09d4cadb2f5f28373e6b2",
+                "reference": "ef005acc358ab4b4d6d09d4cadb2f5f28373e6b2",
                 "shasum": ""
             },
             "require": {
@@ -660,7 +660,7 @@
             },
             "require-dev": {
                 "crysalead/dir": "~2.0",
-                "kahlan/kahlan": "~3.0"
+                "kahlan/kahlan": "~5.0"
             },
             "type": "library",
             "autoload": {
@@ -681,7 +681,7 @@
             "keywords": [
                 "stream"
             ],
-            "time": "2017-09-19T23:36:49+00:00"
+            "time": "2022-05-17T18:46:06+00:00"
         },
         {
             "name": "crysalead/text",
@@ -749,13 +749,13 @@
             ],
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Deployer\\": "src/"
-                },
                 "files": [
                     "src/Support/helpers.php",
                     "src/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Deployer\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -825,6 +825,7 @@
                 "phar",
                 "update"
             ],
+            "abandoned": true,
             "time": "2018-02-27T17:29:10+00:00"
         },
         {
@@ -832,12 +833,12 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/maycowa/validare.git",
+                "url": "https://github.com/laraantunes/validare.git",
                 "reference": "7b7fdc6a8294f63821c7d0debf8429952bbdb57b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maycowa/validare/zipball/7b7fdc6a8294f63821c7d0debf8429952bbdb57b",
+                "url": "https://api.github.com/repos/laraantunes/validare/zipball/7b7fdc6a8294f63821c7d0debf8429952bbdb57b",
                 "reference": "7b7fdc6a8294f63821c7d0debf8429952bbdb57b",
                 "shasum": ""
             },
@@ -1613,12 +1614,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1671,12 +1672,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1727,12 +1728,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php73\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -1929,16 +1930,16 @@
         },
         {
             "name": "usmanhalalit/pixie",
-            "version": "2.0.0",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/usmanhalalit/pixie.git",
-                "reference": "5820ef4f62c7be697767fd84830b7ad6fc057375"
+                "reference": "873e70e63b6802634050d9fb3d38a9bc0c5d23fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/usmanhalalit/pixie/zipball/5820ef4f62c7be697767fd84830b7ad6fc057375",
-                "reference": "5820ef4f62c7be697767fd84830b7ad6fc057375",
+                "url": "https://api.github.com/repos/usmanhalalit/pixie/zipball/873e70e63b6802634050d9fb3d38a9bc0c5d23fc",
+                "reference": "873e70e63b6802634050d9fb3d38a9bc0c5d23fc",
                 "shasum": ""
             },
             "require": {
@@ -1981,7 +1982,7 @@
                 "sql",
                 "sqlite"
             ],
-            "time": "2016-04-08T10:58:01+00:00"
+            "time": "2019-11-16T12:29:06+00:00"
         },
         {
             "name": "usmanhalalit/strana",
@@ -2520,12 +2521,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "DeepCopy\\": "src/DeepCopy/"
-                },
                 "files": [
                     "src/DeepCopy/deep_copy.php"
-                ]
+                ],
+                "psr-4": {
+                    "DeepCopy\\": "src/DeepCopy/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3108,6 +3109,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-07-08T05:24:54+00:00"
         },
         {
@@ -3853,12 +3855,12 @@
             "version": "1.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/83e253c8e0be5b0257b881e1827274667c5c17a9",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/83e253c8e0be5b0257b881e1827274667c5c17a9",
                 "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9",
                 "shasum": ""
             },
@@ -3908,5 +3910,6 @@
     "platform": {
         "ext-pdo": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
