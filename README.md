@@ -5,7 +5,7 @@ The standalone core of Hood Framework, the PHP Framework for good aim archers an
 You can import this library with any framework and use it's features as you want!
 
 ## Installation
-`composer require maycow/hood-core`
+`composer require laraantunes/hood-core`
 
 ## You'll need to configure the paths for Hood's configuration:
 
